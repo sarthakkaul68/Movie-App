@@ -1,0 +1,70 @@
+.Container{
+   
+    flex: container;
+}
+
+.Header{
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px 0 #555;
+    align-items: center;
+
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.MovieImage{
+    width:48px ;
+    height:48px ;
+    margin:15px ;
+}
+.AppName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SearchBox{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 50%;
+    align-items: center;
+
+}
+
+.SearchIcon{
+    width: 32px;
+    height: 32px;
+}
+.SearchInput{
+
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.MovieListContainer{
+
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+padding: 30px;
+justify-content: space-evenly;
+gap: 24px
+;
+}
