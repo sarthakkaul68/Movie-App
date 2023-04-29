@@ -9,7 +9,7 @@ const MovieInfoComponent = (props) => {
         const fetchInfoData= async(selectedMovie)=>{
             try{
                 const response = await fetch(`https://www.omdbapi.com/?i=${selectedMovie}&apikey=${API_KEY}`)
-          console.log(response)
+        //   console.log(response)
                 const infoData= await response.json();
            setMOvieInfo(infoData)
         //    console.log(movieInfo)

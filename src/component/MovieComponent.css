@@ -34,3 +34,9 @@
     color: black;
     text-transform: capitalize;
 }
+.favourite-button{
+    border-style:inset ;
+    color: crimson;
+    cursor: pointer;
+
+}
